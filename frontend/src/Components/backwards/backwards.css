@@ -1,0 +1,9 @@
+.backwards {
+  cursor: pointer;
+  font-size: 3.8rem;
+  color: #272727;
+  display: inline-flex;
+}
+.backwards .icon {
+  margin: auto 5px;
+}/*# sourceMappingURL=backwards.css.map */

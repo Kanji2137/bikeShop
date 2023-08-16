@@ -1,0 +1,31 @@
+{
+    "locationInfo": {
+        "description": "<strong>The bicycle service</strong> located at <strong>54 Druid St</strong> is the perfect destination if you seek professionalism and expertise in bike repairs. Our team of specialists has a long-standing track record of effectively maintaining and customizing bikes of all kinds. <br/> <br/>Whether it's a classic city bike, a rugged mountain bike, or a cutting-edge electric bike, we are fully equipped to tackle any challenge. <br/> <br/> <strong> Situated in London St Saviours estate district</strong>, our location offers convenient access for all repair needs. We value transparency at our bicycle service, ensuring you are informed about the anticipated costs of any planned repairs before they are undertaken."
+    },
+    "serviceCards": [
+        {
+            "title": "Bicycle MOT",
+            "sub_title": "Complete peace of mind.",
+            "description": "Full safety check plus tweaks and adjustments. Keeps you riding, with complete peace of mind.",
+            "pricing_header": "£39.99",
+            "pricing_subtext": "plus £20 for e-bikes.",
+            "package_list": ["Full safety check.", "Inspection &amp; adjustment of brakes, gears, frame, forks, handlebars &amp; headset.", "Tyres check for damage and inflated to the correct pressure.", "All bolts checked and tightened.", "Chain lubricated.", "Does not include the cost of replacing parts."]
+        },
+        {
+            "title": "Solid Fettle",
+            "sub_title": "Rides like new.",
+            "description": "Full safety check plus tweaks and adjustments. Keeps you riding, with complete peace of mind.",
+            "pricing_header": "£99.99",
+            "pricing_subtext": "plus £20 for e-bikes.",
+            "package_list": ["EVERYTHING IN THE BICYCLE MOT PACKAGE", "Drivetrain removed, cleaned and re-greased.", "Bottom bracket checked for wear, adjusted if necessary.", "Brake calipers removed, cleaned and re-greased.", "Wheels checked over, spokes checked for damage and tension.", "Includes fitting any replacement parts approved by you. Parts not included."]
+        },
+        {
+            "title": "Full Fettle",
+            "sub_title": "Full stripdown & rebuild.",
+            "description": "Full safety check plus tweaks and adjustments. Keeps you riding, with complete peace of mind.",
+            "pricing_header": "£159.99",
+            "pricing_subtext": "plus £20 for e-bikes.",
+            "package_list": ["EVERYTHING IN THE SOLID FETTLE PACKAGE", "Both hubs are taken apart and bearings inspected for wear, replacements installed if necessary.", "Headset is taken apart and inspected for wear, replacement quoted if necessary.", "The bike is stripped and cleaned thoroughly.", "During the rebuild, we make sure to use the correct paste compounds and lubricants, re-torquing components to the manufacturer specific requirements to get those marginal gains."]
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+@import "../../../sassStyles/variables.scss";
+
+.ProductPage {
+    .section &__wrapper {
+        display: flex;
+        max-width: 800px;
+    }
+    &__image {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        background-color: white;
+        border: 2px solid #1b1b1b;
+        box-sizing: border-box;
+        box-shadow: 6px 6px 0 #1b1b1b;
+        margin-right: 3rem;
+        width: 50%;
+        border-radius: 5px;
+    }
+
+    &__text {
+        width: 50%;
+        text-align: left;
+        font-family: inter, sans-serif;
+
+        h1 {
+            font-size: 3rem;
+            color: $color-blue-light-2;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: $color-blue-light-1;
+        }
+
+        button {
+            margin-left: unset;
+            margin-right: unset;
+        }
+    }
+}
+
+@media (max-width: 660px) {
+    .ProductPage {
+        &__wrapper {
+            img {
+                width: calc(3 / 5 * 100vw);
+            }
+        }
+        &__text {
+            width: calc(100% - 60vw);
+        }
+    }
+}

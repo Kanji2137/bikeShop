@@ -1,0 +1,13 @@
+.Form {
+  margin: 5rem 0;
+}
+.Form__input {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.Form__title {
+  font-size: 1.8rem;
+}
+.Form p {
+  margin-top: 2rem;
+}/*# sourceMappingURL=Form.css.map */

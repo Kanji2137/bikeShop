@@ -1,0 +1,226 @@
+{
+	"bike1": {
+		"name": "Lila Mccray",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/105/small_2013-05-29_18.02.21.jpg",
+		"price": 813.65,
+		"color": "orange",
+		"brand": "KTM"
+	},
+	"bike2": {
+		"name": "Jody Fallen",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/28/small_IMG_0368.JPG",
+		"price": 1838.85,
+		"color": "black",
+		"brand": "KTM"
+	},
+	"bike3": {
+		"name": "Rory Sexton",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/32/small_image.jpg",
+		"price": 1976.99,
+		"color": "blue",
+		"brand": "Kross"
+	},
+	"bike4": {
+		"name": "Shiloh Tran",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/25/small_Jenners_bike.JPG",
+		"price": 1561.83,
+		"color": "gray",
+		"brand": "Maxim"
+	},
+	"bike5": {
+		"name": "Bates Black",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/33/small_Scott_Masi_fixed.JPG",
+		"price": 1384.72,
+		"color": "black",
+		"brand": "Saveno"
+	},
+	"bike6": {
+		"name": "Chance Alexander",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/35/small_Haro_steel_reserve.JPG",
+		"price": 988.95,
+		"color": "gray",
+		"brand": "Saveno"
+	},
+	"bike7": {
+		"name": "Tank",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/37/small_image.jpg",
+		"price": 817.64,
+		"color": "gray",
+		"brand": "Maxim"
+	},
+	"bike8": {
+		"name": "Jamie Solomon",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/64/small_IMG_20130305_142927.jpg",
+		"price": 1288.15,
+		"color": "orange",
+		"brand": "KTM"
+	},
+	"bike9": {
+		"name": "Jo Rosales",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/40/small_Miriam.jpg",
+		"price": 1419.58,
+		"color": "black",
+		"brand": "KTM"
+	},
+	"bike10": {
+		"name": "Campbell Bryant",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/1336/small_large_IMG_1709.jpg",
+		"price": 1630.96,
+		"color": "black",
+		"brand": "Kross"
+	},
+	"bike11": {
+		"name": "Taylor Bright",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/44/small_My_bike.jpg",
+		"price": 1077.36,
+		"color": "gray",
+		"brand": "Maxim"
+	},
+	"bike12": {
+		"name": "Jesse Austin",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/97/small_Trek_mountain_bike.jpg",
+		"price": 812.77,
+		"color": "orange",
+		"brand": "Saveno"
+	},
+	"bike13": {
+		"name": "Savage Compton",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/98/small_image.jpg",
+		"price": 1738.18,
+		"color": "orange",
+		"brand": "Maxim"
+	},
+	"bike14": {
+		"name": "Jean Boyd",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/99/small_image.jpg",
+		"price": 1841.07,
+		"color": "blue",
+		"brand": "Kross"
+	},
+	"bike15": {
+		"name": "Young Harrison",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/100/small_2013-05-24_10.04.18.jpg",
+		"price": 1593.94,
+		"color": "gray",
+		"brand": "Maxim"
+	},
+	"bike16": {
+		"name": "Savage Compton",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/101/small_2013-05-24_10.04.27.jpg",
+		"price": 957.99,
+		"color": "blue",
+		"brand": "Saveno"
+	},
+	"bike17": {
+		"name": "Jody Langley",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/102/small_2013-05-24_10.04.02.jpg",
+		"price": 1721.35,
+		"color": "orange",
+		"brand": "Maxim"
+	},
+	"bike18": {
+		"name": "Tracy Newman",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/107/small_image.jpg",
+		"price": 1478.62,
+		"color": "orange",
+		"brand": "Kross"
+	},
+	"bike19": {
+		"name": "Quinn Robles",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/158/small_IMG_0703.JPG",
+		"price": 1737.03,
+		"color": "black",
+		"brand": "KTM"
+	},
+	"bike20": {
+		"name": "Harper Foreman",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/108/small_2013-06-05_12.39.05.jpg",
+		"price": 1798.62,
+		"color": "black",
+		"brand": "Maxim"
+	},
+	"bike21": {
+		"name": "Duffy Reed",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/109/small_2013-06-07_10.51.06.jpg",
+		"price": 1610.79,
+		"color": "blue",
+		"brand": "Saveno"
+	},
+	"bike22": {
+		"name": "Hildred Patrick",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/110/small_photo__21_.JPG",
+		"price": 1969.59,
+		"color": "blue",
+		"brand": "KTM"
+	},
+	"bike23": {
+		"name": "Quicker",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/77664/small_e2478dcdd6a1e68c095c1597b2365850.jpg.max800.jpg",
+		"price": 1892.21,
+		"color": "blue",
+		"brand": "KTM"
+	},
+	"bike24": {
+		"name": "Dae Figueroa",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/111/small_IMG_20130609_191904.jpg",
+		"price": 1816.46,
+		"color": "gray",
+		"brand": "Kross"
+	},
+	"bike25": {
+		"name": "Young Harrison",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/112/small_IMG_20130609_192507.jpg",
+		"price": 1228.27,
+		"color": "blue",
+		"brand": "Kross"
+	},
+	"bike26": {
+		"name": "Speedy",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/45484/small_schwinn_1.jpeg",
+		"price": 1892.21,
+		"color": "blue",
+		"brand": "KTM"
+	},
+	"bike27": {
+		"name": "Ready",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/150/small_2013-06-12_16.11.59.jpg",
+		"price": 1892.21,
+		"color": "blue",
+		"brand": "KTM"
+	},
+	"bike28": {
+		"name": "XY",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/154/small_2013-06-13_19.40.57.jpg",
+		"price": 1892.21,
+		"color": "blue",
+		"brand": "KTM"
+	},
+	"bike29": {
+		"name": "Fasti",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/155/small_2013-06-13_19.44.04.jpg",
+		"price": 1892.21,
+		"color": "blue",
+		"brand": "KTM"
+	},
+	"bike30": {
+		"name": "Orange Bike",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/156/small_2013-06-18_07.43.07.jpg",
+		"price": 1892.21,
+		"color": "blue",
+		"brand": "KTM"
+	},
+	"bike31": {
+		"name": "Challanger",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/157/small_image.jpg",
+		"price": 1892.21,
+		"color": "blue",
+		"brand": "KTM"
+	},
+	"bike32": {
+		"name": "XBoyd",
+		"image_link": "https://files.bikeindex.org/uploads/Pu/159/small_2013-06-28_14.45.25.jpg",
+		"price": 1892.21,
+		"color": "blue",
+		"brand": "KTM"
+	}
+}

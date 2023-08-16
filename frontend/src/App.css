@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Khula:wght@800&family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,700;1,100;1,200;1,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap");
+@import "./sassStyles/components/Button/buttons.css";
+@import "Pages/Navbar/navbar.css";
+@import "Pages/HomePage/homePage.css";
+@import "Pages/HomePage/StartPage/startPage.css";
+@import "Pages/HomePage/AboutUs/aboutUs.css";
+@import "Pages/ShopPage/SearchFilter/searchFilter.css";
+@import "Pages/CartPage/CartPage.css";
+@import "Pages/CartPage/Summary/Summary.css";
+@import "Pages/CartPage/PaymentPage/paymentPage.css";
+@import "Pages/CartPage/PaymentPage/Form/Form.css";
+@import "Pages/CartPage/PaymentPage/Payment/payment.css";
+@import "Pages/CartPage/PaymentPage/SmallSummary/smallSummary.css";
+@import "Pages/ShopPage/ProductPage/productPage.css";
+@import "Pages/ServicePage/ServicePage.css";
+@import "Pages/ServicePage/OptionCard/optionCard.css";
+@import "Components/Modal/modal.css";
+@import "Components/card/card.css";
+@import "Components/backwards/backwards.css";
+@import "Components/location/locationInfo.css";
+@import "Components/location/OpeningHours/openingHours.css";
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #777;
+}
+
+.section {
+  padding-top: 5rem;
+}
+
+.wrapper {
+  width: 96%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.wrapper-inner {
+  max-width: 600px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  cursor: pointer;
+}/*# sourceMappingURL=App.css.map */

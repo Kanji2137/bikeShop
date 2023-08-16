@@ -1,0 +1,85 @@
+@import "../../sassStyles/variables.scss";
+
+.card {
+    font-family: Poppins, sans-serif;
+    background-color: $card--bg-offset;
+    padding: 0;
+    box-shadow: 0 2px 4px $card--border;
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    display: inline-block;
+    width: 100%;
+
+    &-grid {
+        margin: 2em 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        font-size: 1.4rem;
+
+        li {
+            margin: auto;
+            width: 100%;
+        }
+    }
+
+    &:hover {
+        transform: scale(1.03);
+    }
+
+    &:hover &-content h2 {
+        display: block;
+        -webkit-line-clamp: unset;
+        -webkit-box-orient: unset;
+        overflow: visible;
+    }
+
+    &-image {
+        max-height: 150px;
+        overflow: hidden;
+    }
+
+    &-image img {
+        margin-top: -13px;
+        min-height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    &-content {
+        padding: 32px 15px;
+        color: #383838;
+    }
+
+    &-content h2 {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    &-list {
+        margin-top: 16px;
+    }
+
+    &-list li {
+        color: $card--text;
+        margin-top: 8px;
+    }
+
+    &-list li span {
+        color: $card--gray;
+    }
+
+    &-details {
+        width: fit-content;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .card {
+        &-grid {
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        }
+    }
+}

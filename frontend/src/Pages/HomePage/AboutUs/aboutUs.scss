@@ -1,0 +1,46 @@
+@import "../../../sassStyles/variables.scss";
+
+.aboutUs {
+    font-family: "Popins", sans-serif;
+    &-h {
+        text-align: center;
+        text-transform: uppercase;
+        padding-bottom: 1rem;
+        color: $color-gray-dark-3;
+        font-size: 2.8rem;
+        font-weight: 700;
+        
+        &--title {
+            color: $color-tertiary-dark;
+            padding-bottom: 2rem;
+        }
+        &--item {
+            font-size: 2.6rem;
+            color: $color-gray-dark-3;
+        }
+    }
+    
+    &__underline {
+        height: 1px;
+        width: 80%;
+        background: $color-gray-dark-3;
+        margin: 0 auto;
+    }
+
+    &__item-container {
+        padding: 5rem 0 2.5rem 0;
+        width: 80%;
+        display: flex;
+        margin: auto;
+    }
+    &__item {
+        width: 20%;
+        font-size: 7rem;
+        color: $color-black;
+    }
+    &__icon {
+        display: block;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+}

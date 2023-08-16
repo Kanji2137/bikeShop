@@ -1,0 +1,126 @@
+.summary {
+    &-box {
+        background-color: #F7F7F7;
+        padding: 30px 35px;
+        height: fit-content;
+        margin: 2.3em 0 0 2rem;
+        font-family: inter, sans-serif;
+        font-size: 1.2rem;
+    }
+    &-values {
+        margin: 0;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-row-gap: 20px;
+        
+        dd{
+            margin: 0;
+            text-align: right;
+            text-transform: uppercase;
+        }
+    }
+    
+    &-value__total {
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    
+    &-value__delivery {
+        position: relative;
+        padding-top: 20px;
+    }
+    
+    &-advance {
+        position: relative;
+        z-index: 0;
+    }
+    
+    &-advance {
+        margin-top: 20px;
+    }
+    
+    &-advance &__button {
+        width: 100%;
+        font-size: 20px;
+        padding: 23px 30px 22px 30px;
+    }
+    
+    &__button__has-icon {
+        padding-left: 15px;
+    }
+    &__button {
+        display: inline-flex;
+        align-items: center;
+        background: #ff6701;
+        color: #fff;
+        border: 0;
+        padding: 14px 25px 13px 25px;
+        font-weight: 500;
+        position: relative;
+        transition: all 0.3s;
+        line-height: 1;
+        vertical-align: middle;
+        text-decoration: none;
+    }
+    &__button__has-icon:hover {
+        padding-right: 21px;
+    }
+    
+    &__button:hover {
+        background-color: #e65d01;
+    }
+    &__button:hover::before {
+        background-color: #e65d01;
+        inset: -2px -5px;
+    }
+    &__button::before {
+        content: '';
+        position: absolute;
+        inset: -2px;
+        z-index: -1;
+        transition: all 0.3s;
+    }
+    
+    &-advance &__button &__button-icon-wrapper {
+        width: 20px;
+        height: 20px;
+        padding-right: 20px;
+        margin-right: 20px;
+    }
+    
+    &__button &__button-icon-wrapper:not(:empty) {
+        width: 14px;
+        padding-right: 12px;
+        margin-right: 12px;
+        position: relative;
+    }
+    &__button &-icon-wrapper {
+        --button-icon-size: 14px;
+        height: 14px;
+        box-sizing: content-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.3s;
+    }
+    
+    &-advance &__button &__button-icon {
+        --button-icon-size: 20px;
+    }
+    
+    &__button &__button-icon {
+        fill: currentColor;
+        width: var(--button-icon-size);
+        height: var(--button-icon-size);
+        transition: all 0.3s;
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .summary-box {
+        margin: 0;
+        grid-column: 1/span 2;
+    }
+}

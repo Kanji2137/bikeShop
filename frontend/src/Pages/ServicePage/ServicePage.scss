@@ -1,0 +1,19 @@
+.ServicePage {
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    color: #272727;
+    &__CardsContainer {
+        margin-top: 6rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    h1 {
+        font-size: 2.6rem;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+}

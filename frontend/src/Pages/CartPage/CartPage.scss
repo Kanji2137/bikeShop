@@ -1,0 +1,33 @@
+.CartPage {
+    &--innerWrapper {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap: 0;
+        position: relative;
+    
+        .card-grid {
+            grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+        }
+    }
+
+    &--cardsWrapper {
+        grid-column: 1 / span 2;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .CartPage {
+        &--innerWrapper {
+            .card-grid {
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            }
+        }
+    }
+}
+@media only screen and (max-width: 800px) {
+    .CartPage {
+        &--innerWrapper {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}

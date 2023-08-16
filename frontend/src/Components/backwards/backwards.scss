@@ -1,0 +1,11 @@
+@import "../../sassStyles/variables.scss";
+
+.backwards {
+    cursor: pointer;
+    font-size: 3.8rem;
+    color: $color-gray-dark-3;
+    display: inline-flex;
+    .icon {
+        margin: auto 5px;
+    }
+}

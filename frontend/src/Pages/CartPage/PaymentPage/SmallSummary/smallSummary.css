@@ -1,0 +1,65 @@
+.smallSummary__container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.smallSummary__responsive-table li {
+  border-radius: 3px;
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.smallSummary__responsive-table .table-header {
+  background-color: #e8f0fe;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.smallSummary__responsive-table .table-row {
+  background-color: #ffffff;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+  font-size: 1.4rem;
+}
+.smallSummary__responsive-table .col-1 {
+  flex-basis: 50%;
+}
+.smallSummary__responsive-table .col-2 {
+  flex-basis: 50%;
+}
+@media all and (max-width: 767px) {
+  .smallSummary__responsive-table .table-header {
+    display: none;
+  }
+  .smallSummary__responsive-table li {
+    display: block;
+  }
+  .smallSummary__responsive-table .col {
+    flex-basis: 100%;
+  }
+  .smallSummary__responsive-table .col {
+    display: flex;
+    padding: 10px 0;
+  }
+  .smallSummary__responsive-table .col:before {
+    color: #6c7a89;
+    padding-right: 10px;
+    content: attr(data-label);
+    flex-basis: 50%;
+    text-align: right;
+  }
+}
+.smallSummary__subtotal {
+  color: #00d310;
+  font-size: 2.4rem;
+}
+.smallSummary h2 {
+  font-size: 2.6rem;
+  margin: 20px 0;
+  text-align: center;
+}
+.smallSummary h2 small {
+  font-size: 0.5em;
+}/*# sourceMappingURL=smallSummary.css.map */

@@ -1,0 +1,35 @@
+.startPage {
+  display: flex;
+}
+.startPage__box {
+  position: relative;
+  overflow: hidden;
+}
+.startPage__box h1 {
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.startPage__video {
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  cursor: pointer;
+  width: 100%;
+  height: calc(100vh - 8rem);
+  -o-object-fit: cover;
+     object-fit: cover;
+  backface-visibility: hidden;
+  transform: scale(1.05);
+  transition: all 0.8s;
+  filter: blur(2px) brightness(80%);
+}
+.startPage__video:hover {
+  transform: scale(1.035);
+  filter: blur(0px) brightness(100%);
+}/*# sourceMappingURL=startPage.css.map */
