@@ -10,7 +10,7 @@ function SearchFilter({ addProduct }) {
     const [query, setQuery] = useState("");
     const [filter, setFilter] = useState("");
     const [priceFilter, setPriceFilter] = useState("");
-    const [paginate, setpaginate] = useState(8);
+    const [paginate, setPaginate] = useState(8);
 
     useEffect(() => {
         fetch(
@@ -52,7 +52,7 @@ function SearchFilter({ addProduct }) {
     }
 
     const loadMore = (_event) => {
-        setpaginate((prevValue) => prevValue + 8);
+        setPaginate((prevValue) => prevValue + 8);
     };
 
     if (error) {

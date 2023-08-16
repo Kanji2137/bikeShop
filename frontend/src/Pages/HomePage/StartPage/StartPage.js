@@ -1,40 +1,19 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
+import Video from "./Video/Video";
 
 function StartPage() {
-    const [isPlay, setPlay] = useState(true);
-
-    function playVideo(e) {
-        if(!isPlay) e.target.play();
-        setPlay(true);
-    }
-    function stopVideo(e) {
-        if(isPlay){
-            e.target.pause();
-            setPlay(false);
-        }
-    }
 
     return (
         <section className="startPage">
             <div className="startPage__box">
-                <Link to="/cart/shop">
-                    <video onMouseOver={playVideo} onMouseLeave={stopVideo} className="startPage__video" muted loop>
-                                <source src="videos/bike-riding.mp4" type="video/mp4"/>
-                                <source src="videos/video.webm" type="video/webm"/>
-                                Your browser is not supported!
-                    </video>
-                    <h1>Service</h1>
+                <Link to="/service">
+                    <Video path1="videos/bike-riding.mp4" path2="videos/video.webm" text="Service"/>
                 </Link>
             </div>
             <div className="startPage__box">
                 <Link to="/cart/shop">
-                    <video onMouseOver={playVideo} onMouseLeave={stopVideo} className="startPage__video" muted loop>
-                                <source src="videos/bike-service.mp4" type="video/mp4"/>
-                                <source src="videos/video.webm" type="video/webm"/>
-                                Your browser is not supported!
-                    </video>
-                    <h1>Shop</h1>
+                    <Video path1="videos/bike-service.mp4" path2="videos/video.webm" text="Shop"/>
                 </Link>
             </div>
         </section>
