@@ -14,7 +14,7 @@ function SearchFilter({ addProduct }) {
 
     useEffect(() => {
         fetch(
-            "http://localhost:3001/products"
+            "https://bike-hub-api.onrender.com/products"
         )
             .then((res) => res.json())
             .then(
