@@ -46,19 +46,19 @@ function Footer() {
                         <h3>Links</h3>
                     </div>
                     <div className="footer__link-des">
-                        <a href="#" className="footer-links">
+                        <a href="/" className="footer-links">
                             Home
                         </a>
-                        <a href="#" className="footer-links">
+                        <a href="/" className="footer-links">
                             About
                         </a>
-                        <a href="#" className="footer-links">
+                        <a href="/" className="footer-links">
                             Services
                         </a>
-                        <a href="#" className="footer-links">
+                        <a href="/" className="footer-links">
                             Galary
                         </a>
-                        <a href="#" className="footer-links">
+                        <a href="/" className="footer-links">
                             Contact
                         </a>
                     </div>
