@@ -36,7 +36,7 @@ function Footer() {
                             54 DRUID ST, LONDON SE1 2EZ
                         </p>
 
-                        <a href="#">INFO@EMAIL.PL</a>
+                        <p>INFO@EMAIL.PL</p>
 
                         <p className="num">666 666 666</p>
                     </div>
@@ -46,21 +46,15 @@ function Footer() {
                         <h3>Links</h3>
                     </div>
                     <div className="footer__link-des">
-                        <a href="/" className="footer-links">
+                        <Link to="/home" className="footer-links">
                             Home
-                        </a>
-                        <a href="/" className="footer-links">
+                        </Link>
+                        <Link to="/about" className="footer-links">
                             About
-                        </a>
-                        <a href="/" className="footer-links">
-                            Services
-                        </a>
-                        <a href="/" className="footer-links">
-                            Galary
-                        </a>
-                        <a href="/" className="footer-links">
-                            Contact
-                        </a>
+                        </Link>
+                        <Link to="/service" className="footer-links">
+                            Service
+                        </Link>
                     </div>
                 </div>
                 <div className="newsletter footer__row">
