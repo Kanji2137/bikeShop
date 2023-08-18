@@ -1,0 +1,38 @@
+.contact__container {
+  font-family: Popins, sans-serif;
+  background-color: #fff;
+  padding: 0;
+  display: grid;
+  grid-gap: calc(var(--gridGap) * 3);
+  line-height: initial;
+  border-radius: 0.625em;
+  max-width: 60rem;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  color: #272727;
+}
+
+.contact__container {
+  background-color: #fff;
+  padding: 0;
+  display: grid;
+  grid-gap: calc(var(--gridGap) * 3);
+  line-height: initial;
+  border-radius: 0.625em;
+  max-width: 60rem;
+  margin: 0 auto;
+  font-size: 1.4rem;
+}
+
+.contact__header {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ffcb00;
+  text-transform: uppercase;
+}
+
+.contact__informations p, .contact__informations a {
+  margin: 2rem 0;
+  text-decoration: none;
+  color: inherit;
+}/*# sourceMappingURL=ContactContent.css.map */

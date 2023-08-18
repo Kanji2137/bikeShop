@@ -1,0 +1,37 @@
+@import "../../../sassStyles/variables.scss";
+
+.contact__container {
+    font-family: Popins, sans-serif;
+    background-color: #fff;
+    padding: 0;
+    display: grid;
+    grid-gap: calc(var(--gridGap) * 3);
+    line-height: initial;
+    border-radius: 0.625em;
+    max-width: 60rem;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    color: $color-gray-dark-3;
+}
+.contact__container {
+    background-color: #fff;
+    padding: 0;
+    display: grid;
+    grid-gap: calc(var(--gridGap) * 3);
+    line-height: initial;
+    border-radius: 0.625em;
+    max-width: 60rem;
+    margin: 0 auto;
+    font-size: 1.4rem;
+}
+.contact__header {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: $color-yellow-dark-1;
+    text-transform: uppercase;
+}
+.contact__informations p, .contact__informations a{
+    margin: 2rem 0;
+    text-decoration: none;
+    color: inherit;
+}
