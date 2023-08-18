@@ -11,8 +11,8 @@ function Form() {
                     data-priority="10"
                 >
                     <label htmlFor="billing_first_name" className="Form__title">
-                        Imię&nbsp;
-                        <abbr title="wymagane">
+                        Name&nbsp;
+                        <abbr title="required">
                             *
                         </abbr>
                     </label>
@@ -32,8 +32,8 @@ function Form() {
                     data-priority="20"
                 >
                     <label htmlFor="billing_last_name" className="Form__title">
-                        Nazwisko&nbsp;
-                        <abbr title="wymagane">
+                        Last name&nbsp;
+                        <abbr title="required">
                             *
                         </abbr>
                     </label>
@@ -54,8 +54,8 @@ function Form() {
                     data-priority="30"
                 >
                     <label htmlFor="billing_company" className="Form__title">
-                        Nazwa firmy&nbsp;
-                        <span>(opcjonalne)</span>
+                        Company name&nbsp;
+                        <span>(optional)</span>
                     </label>
                     <span>
                         <input
@@ -74,8 +74,8 @@ function Form() {
                     data-priority="50"
                 >
                     <label htmlFor="billing_address_1" className="Form__title">
-                        Ulica&nbsp;
-                        <abbr title="wymagane">
+                        Street&nbsp;
+                        <abbr title="required">
                             *
                         </abbr>
                     </label>
@@ -97,8 +97,8 @@ function Form() {
                     data-priority="60"
                 >
                     <label htmlFor="billing_address_2" className="Form__title">
-                        Nr mieszkania, lokalu, itp.&nbsp;
-                        <span>(opcjonalne)</span>
+                        No. of the apartment, premises, etc.&nbsp;
+                        <span>(optional)</span>
                     </label>
                     <span>
                         <input
@@ -119,8 +119,8 @@ function Form() {
                     data-o_classname="form-row form-row-wide address-field validate-required validate-postcode"
                 >
                     <label htmlFor="billing_postcode" className="Form__title">
-                        Kod pocztowy&nbsp;
-                        <abbr title="wymagane">
+                        zip code&nbsp;
+                        <abbr title="required">
                             *
                         </abbr>
                     </label>
@@ -141,8 +141,8 @@ function Form() {
                     data-priority="70"
                 >
                     <label htmlFor="billing_city" className="Form__title">
-                        Miasto&nbsp;
-                        <abbr title="wymagane">
+                        City&nbsp;
+                        <abbr title="required">
                             *
                         </abbr>
                     </label>
@@ -160,29 +160,12 @@ function Form() {
                     </span>
                 </p>
                 <p
-                    id="billing_state_field"
-                    style={{ display: "none" }}
-                >
-                    <label htmlFor="billing_state" className="Form__title">
-                        Województwo / Region&nbsp;
-                        <span>(opcjonalne)</span>
-                    </label>
-                    <span>
-                        <input
-                            type="hidden"
-                            id="billing_state"
-                            name="billing_state"
-                            placeholder=""
-                        />
-                    </span>
-                </p>
-                <p
                     id="billing_phone_field"
                     data-priority="100"
                 >
                     <label htmlFor="billing_phone" className="Form__title">
-                        Numer telefonu&nbsp;
-                        <abbr title="wymagane">
+                        Phone number&nbsp;
+                        <abbr title="required">
                             *
                         </abbr>
                     </label>
@@ -203,8 +186,8 @@ function Form() {
                     data-priority="110"
                 >
                     <label htmlFor="billing_email" className="Form__title">
-                        Adres e-mail&nbsp;
-                        <abbr title="wymagane">
+                        e-mail&nbsp;
+                        <abbr title="required">
                             *
                         </abbr>
                     </label>

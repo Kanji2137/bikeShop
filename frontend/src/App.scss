@@ -8,6 +8,8 @@
 
 @import "Pages/Navbar/navbar.css";
 
+@import "Pages/Footer/footer.css";
+
 @import "Pages/HomePage/homePage.css";
 @import "Pages/HomePage/StartPage/startPage.css";
 @import "Pages/HomePage/AboutUs/aboutUs.css";
@@ -27,7 +29,7 @@
 @import "Pages/ServicePage/ServicePage.css";
 @import "Pages/ServicePage/OptionCard/optionCard.css";
 
-
+@import "Pages/Contact/ContactContent/ContactContent.scss";
 
 @import "Components/Modal/modal.css";
 @import "Components/card/card.css";
@@ -55,6 +57,7 @@ body {
     width: 96%;
     max-width: 1140px;
     margin: 0 auto;
+    min-height: 75vh;
 }
 .wrapper-inner {
     max-width: 600px;

@@ -6,6 +6,7 @@
   transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
   display: inline-block;
   width: 100%;
+  margin-bottom: 2.5rem;
 }
 .card-grid {
   margin: 2em 0;
@@ -68,5 +69,10 @@
 @media only screen and (max-width: 800px) {
   .card-grid {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+@media only screen and (max-width: 400px) {
+  .card:hover {
+    transform: none;
   }
 }/*# sourceMappingURL=card.css.map */

@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 
 import { FaCartArrowDown } from "react-icons/fa";
 
+import Footer from "../Footer/Footer";
+
 import HomePage from "../HomePage/HomePage";
 import ShopPage from "../ShopPage/ShopPage";
 import ProductPage from "../ShopPage/ProductPage/ProductPage";
@@ -12,6 +14,8 @@ import CartPage from "../CartPage/CartPage";
 import CartProvider from "../../CartProvider";
 import PaymentPage from "../CartPage/PaymentPage/PaymentPage";
 import ServicePage from "../ServicePage/ServicePage";
+
+import Contact from "../Contact/Contact";
 
 import logo from "../../images/logo.svg";
 
@@ -67,11 +71,10 @@ function Navbar() {
                             <span></span>
                         </label>
                     </div>
-
                     <div className="nav-links" onClick={checkHandler}>
                         <Link to="/">Home</Link>
                         <Link to="/about">About</Link>
-                        <Link to="/contact">Contact</Link>
+                        <Contact/>
                         <Link to="/service">Service</Link>
                         <Link to="/cart/shop">Shop</Link>
                         <Link to="/cart/cart">
@@ -92,6 +95,7 @@ function Navbar() {
                     <Route path="/contact" />
                     <Route path="/service" element={<ServicePage />}/>
                 </Routes>
+                <Footer/>
             </div>
         </Router>
     );

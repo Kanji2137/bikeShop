@@ -53,3 +53,16 @@
         }
     }
 }
+
+@media (max-width: 500px) {
+    .ProductPage {
+        &__text {
+            margin-top: 2rem;
+            width: 100%;
+        }
+    }
+    .section .ProductPage__wrapper {
+        display: block;
+        width: 80%;
+    }
+}

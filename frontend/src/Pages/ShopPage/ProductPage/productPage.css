@@ -38,4 +38,14 @@
   .ProductPage__text {
     width: calc(100% - 60vw);
   }
+}
+@media (max-width: 500px) {
+  .ProductPage__text {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .section .ProductPage__wrapper {
+    display: block;
+    width: 80%;
+  }
 }/*# sourceMappingURL=productPage.css.map */

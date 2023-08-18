@@ -12,18 +12,6 @@
   justify-content: space-between;
 }
 
-@media (max-width: 375px) {
-  .search-input {
-    width: 100%;
-  }
-  .search-wrapper {
-    justify-content: start;
-    flex-wrap: wrap;
-  }
-  .select {
-    margin-top: 3.5em;
-  }
-}
 .search-input {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0xNS44NTMgMTYuNTZjLTEuNjgzIDEuNTE3LTMuOTExIDIuNDQtNi4zNTMgMi40NC01LjI0MyAwLTkuNS00LjI1Ny05LjUtOS41czQuMjU3LTkuNSA5LjUtOS41IDkuNSA0LjI1NyA5LjUgOS41YzAgMi40NDItLjkyMyA0LjY3LTIuNDQgNi4zNTNsNy40NCA3LjQ0LS43MDcuNzA3LTcuNDQtNy40NHptLTYuMzUzLTE1LjU2YzQuNjkxIDAgOC41IDMuODA5IDguNSA4LjVzLTMuODA5IDguNS04LjUgOC41LTguNS0zLjgwOS04LjUtOC41IDMuODA5LTguNSA4LjUtOC41eiIvPjwvc3ZnPg==");
   background-color: var(--bg-offset);
@@ -72,8 +60,8 @@ select:focus + .focus {
 }
 
 .select {
-  min-width: 15ch;
-  max-width: 30ch;
+  min-width: 11rem;
+  max-width: 17rem;
   cursor: pointer;
   line-height: 1.1;
   background-color: transparent;
@@ -100,4 +88,20 @@ select:focus + .focus {
 }
 .select select, .select:after {
   grid-area: select;
+}
+
+@media (max-width: 500px) {
+  .search-input {
+    max-width: 13rem;
+    min-width: 13rem;
+  }
+}
+@media (max-width: 375px) {
+  .search-input {
+    width: 100%;
+  }
+  .search-wrapper {
+    justify-content: start;
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=searchFilter.css.map */

@@ -6,7 +6,7 @@
 
 .modal {
     &__background {
-        background-color: $color-secondary-light;
+        background: rgba(0, 0, 0, .5);
         opacity: 0.8;
         inset: 0;
         position: fixed;
@@ -54,6 +54,9 @@
             margin-right: 1rem;
             text-align: end;
             cursor: pointer;
+            right: 1rem;
+            position: absolute;
+            width: fit-content;
         }
     }
 }

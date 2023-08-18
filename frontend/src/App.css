@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap");
 @import "./sassStyles/components/Button/buttons.css";
 @import "Pages/Navbar/navbar.css";
+@import "Pages/Footer/footer.css";
 @import "Pages/HomePage/homePage.css";
 @import "Pages/HomePage/StartPage/startPage.css";
 @import "Pages/HomePage/AboutUs/aboutUs.css";
@@ -22,6 +23,45 @@
 @import "Components/backwards/backwards.css";
 @import "Components/location/locationInfo.css";
 @import "Components/location/OpeningHours/openingHours.css";
+.contact__container {
+  font-family: Popins, sans-serif;
+  background-color: #fff;
+  padding: 0;
+  display: grid;
+  grid-gap: calc(var(--gridGap) * 3);
+  line-height: initial;
+  border-radius: 0.625em;
+  max-width: 60rem;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  color: #272727;
+}
+
+.contact__container {
+  background-color: #fff;
+  padding: 0;
+  display: grid;
+  grid-gap: calc(var(--gridGap) * 3);
+  line-height: initial;
+  border-radius: 0.625em;
+  max-width: 60rem;
+  margin: 0 auto;
+  font-size: 1.4rem;
+}
+
+.contact__header {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ffcb00;
+  text-transform: uppercase;
+}
+
+.contact__informations p, .contact__informations a {
+  margin: 2rem 0;
+  text-decoration: none;
+  color: inherit;
+}
+
 ul,
 ol {
   list-style: none;
@@ -42,6 +82,7 @@ body {
   width: 96%;
   max-width: 1140px;
   margin: 0 auto;
+  min-height: 75vh;
 }
 
 .wrapper-inner {

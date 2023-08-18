@@ -39,10 +39,10 @@ function AboutUs() {
     const items = icons.map((item) => {
         const IconComponent = item.icon;
         return (
-            <div className="aboutUs__item" key={item.id}>
+            <li className="aboutUs__item" key={item.id}>
                 <IconComponent className="aboutUs__icon" />
                 <h2 className="aboutUs-h aboutUs-h--item">{item.text}</h2>
-            </div>
+            </li>
         );
     });
 
@@ -50,7 +50,9 @@ function AboutUs() {
         <section className="section aboutUs">
             <h1 className="aboutUs-h aboutUs-h--title">About Us</h1>
             <div className="aboutUs__underline" />
-            <div className="aboutUs__item-container">{items}</div>
+            <ul className="aboutUs__item-container">
+                {items}
+            </ul>
             <div className="aboutUs__underline"/>
             <LocationInfo/>
         </section>

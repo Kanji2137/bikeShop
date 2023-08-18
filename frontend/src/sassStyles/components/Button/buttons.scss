@@ -50,3 +50,13 @@
         --c: #0fbcf9;
     }
 }
+@media (max-width: 800px) {
+  .btn {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 400px) {
+  .btn {
+    font-size: 4rem;
+  }
+}
