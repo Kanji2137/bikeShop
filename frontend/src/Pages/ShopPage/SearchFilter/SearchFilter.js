@@ -3,9 +3,9 @@ import { useState, useEffect } from "react";
 import Card from "../../../Components/card/Card";
 import Select from "./select/Select";
 
-function SearchFilter({ addProduct }) {
+function SearchFilter() {
     const [error, setError] = useState(null);
-    const [loaded, setLoaded] = useState(false);
+    const [loaded, setLoaded] = useState(true);
     const [items, setItems] = useState([]);
     const [query, setQuery] = useState("");
     const [filter, setFilter] = useState("");
@@ -83,7 +83,7 @@ function SearchFilter({ addProduct }) {
                         .slice(0, paginate)
                         .map((item) => (
                             <li key={item.name}>
-                                <Card inShop="true" className="btn-addCart" item={item} func={addProduct} text="Add to cart"/>
+                                <Card inShop="true" className="btn-addCart" item={item}/>
                             </li>
                         ))}
                 </ul>

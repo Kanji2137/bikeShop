@@ -1,25 +1,24 @@
 .btn {
-  --c: #229091;
-  box-shadow: 0 0 0 0.09em inset var(--c);
-  --_g: linear-gradient(var(--c) 0 0) no-repeat;
-  background: var(--_g) calc(var(--_p, 0%) - 100%) 0%, var(--_g) calc(200% - var(--_p, 0%)) 0%, var(--_g) calc(var(--_p, 0%) - 100%) 100%, var(--_g) calc(200% - var(--_p, 0%)) 100%;
-  background-size: 50.5% calc(var(--_p, 0%) / 2 + 0.5%);
-  outline-offset: 0.1em;
-  transition: background-size 0.4s, background-position 0s 0.4s;
+  background-color: transparent;
+  display: block;
+  margin-bottom: 3rem;
+  cursor: pointer;
+  font-family: system-ui, sans-serif;
+  font-size: 3.5rem;
+  padding: 0.1em 0.6em;
+  font-weight: bold;
+  border: none;
+  color: #272727;
 }
-
-.btn:hover {
-  --_p: 101%;
-  transition: background-position 0.4s, background-size 0s;
+.btn-delete {
+  color: hsl(0, 0%, 52%);
+  --c: #ff3f34;
 }
-
-.btn:active {
-  box-shadow: 0 0 9000000000q inset rgba(0, 0, 0, 0.6);
-  background-color: var(--c);
-  color: #fff;
+.btn-delete svg {
+  margin-bottom: -3px;
 }
-
-.btn {
+.btn-loadMore {
+  --c: #e5ce06;
   display: block;
   margin-top: 2rem;
   margin-bottom: 3rem;
@@ -31,18 +30,27 @@
   padding: 0.1em 0.6em;
   font-weight: bold;
   border: none;
+  box-shadow: 0 0 0 0.09em inset var(--c);
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: var(--_g) calc(var(--_p, 0%) - 100%) 0%, var(--_g) calc(200% - var(--_p, 0%)) 0%, var(--_g) calc(var(--_p, 0%) - 100%) 100%, var(--_g) calc(200% - var(--_p, 0%)) 100%;
+  background-size: 50.5% calc(var(--_p, 0%) / 2 + 0.5%);
+  outline-offset: 0.1em;
+  transition: background-size 0.4s, background-position 0s 0.4s;
 }
-.btn-loadMore {
-  --c: #e5ce06;
+.btn-loadMore:hover {
+  --_p: 101%;
+  transition: background-position 0.4s, background-size 0s;
 }
-.btn-delete {
-  --c: #ff3f34;
+
+.btn-delete:hover {
+  transition: color 0.4s;
+  color: var(--c);
 }
-.btn-details {
-  --c: #4bcffa;
-}
-.btn-addCart {
-  --c: #0fbcf9;
+
+.btn:active {
+  box-shadow: 0 0 9000000000Q inset rgba(0, 0, 0, 0.6);
+  background-color: var(--c);
+  color: #fff;
 }
 
 @media (max-width: 800px) {

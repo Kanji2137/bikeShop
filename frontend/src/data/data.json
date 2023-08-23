@@ -27,5 +27,43 @@
             "pricing_subtext": "plus £20 for e-bikes.",
             "package_list": ["EVERYTHING IN THE SOLID FETTLE PACKAGE", "Both hubs are taken apart and bearings inspected for wear, replacements installed if necessary.", "Headset is taken apart and inspected for wear, replacement quoted if necessary.", "The bike is stripped and cleaned thoroughly.", "During the rebuild, we make sure to use the correct paste compounds and lubricants, re-torquing components to the manufacturer specific requirements to get those marginal gains."]
         }
-    ]
+    ],
+    "AboutPage": {
+        "title": "We are Fettle. We're here to reinvent repair.",
+        "subTitle": "fettle is the UK's most progressive and fastest growing bike repair network, offering hassle free servicing and complete peace of mind for riders of all types.",
+        "header": "Our mission.",
+        "text": [
+            "The Bicycle.",
+
+            "Oh, what a marvel.",
+            
+            "An escape. A pass. A challenge. A rush.",
+            
+            "No matter the query, cycling often holds the answer.",
+            
+            "Autonomy. Unfettered journeys. Invigorating air. Swift stretches.",
+            
+            "Diverse motivations lead us to mount the saddle. Yet, a shared emotion unites us upon dismounting – renewed, healthy, optimistic, and proud.",
+            
+            "Certainly, some grumble about congested lanes, harsh weather, aching derrières, but these gripes soon fade.<br/>The genuine distress surfaces when you're barred from the pedals. When injuries intervene. When life's demands detain you.",
+            
+            "A bicycle that's out of order? One that doesn't perform as intended? This breeds a distinct frustration. A vexation that frequently worsens before it betters.",
+            
+            "This predicament arises because resurrecting your bike comes with challenges akin to the size of London's potholes.",
+            
+            "Scarce parts.<br/>Perplexing terminology.<br/>Bewildering choices.<br/>Budget surprises.",
+            
+            "E-commerce stands as the greatest technological revolution since the wheel's inception. Still, the bicycle service sector clings to antiquated methods.",
+            
+            "Our purpose is to rectify this imbalance. Our resolve is steadfast.",
+            
+            "We intend to meld traditional expertise with contemporary service standards. Greased rags with tech-driven ingenuity.<br/>Physical locations with instantaneous notifications.",
+            
+            "Mediocrity seldom sparks acclaim. Hence, we've established a venture entirely centered on you.",
+            
+            "To prioritize the cyclist.",
+            
+            "To ensure London's riders continue their journey."
+        ]
+    }
 }

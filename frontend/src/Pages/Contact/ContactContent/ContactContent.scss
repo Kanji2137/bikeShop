@@ -1,7 +1,7 @@
 @import "../../../sassStyles/variables.scss";
 
 .contact__container {
-    font-family: Popins, sans-serif;
+    font-family: "POPPINS", sans-serif;
     background-color: #fff;
     padding: 0;
     display: grid;
@@ -30,7 +30,8 @@
     color: $color-yellow-dark-1;
     text-transform: uppercase;
 }
-.contact__informations p, .contact__informations a{
+.contact__informations p,
+.contact__informations a {
     margin: 2rem 0;
     text-decoration: none;
     color: inherit;

@@ -8,8 +8,9 @@ import { FaCartArrowDown } from "react-icons/fa";
 import Footer from "../Footer/Footer";
 
 import HomePage from "../HomePage/HomePage";
+import AboutPage from "../AboutPage/AboutPage";
 import ShopPage from "../ShopPage/ShopPage";
-import ProductPage from "../ShopPage/ProductPage/ProductPage";
+import ProductPage from "../ProductPage/ProductPage";
 import CartPage from "../CartPage/CartPage";
 import CartProvider from "../../CartProvider";
 import PaymentPage from "../CartPage/PaymentPage/PaymentPage";
@@ -91,8 +92,7 @@ function Navbar() {
                         <Route path="/cart/payment" element={<PaymentPage />} />
                     </Route>
                     <Route path="/" element={<HomePage />} />
-                    <Route path="/about" />
-                    <Route path="/contact" />
+                    <Route path="/about" element={<AboutPage/>}/>
                     <Route path="/service" element={<ServicePage />}/>
                 </Routes>
                 <Footer/>
