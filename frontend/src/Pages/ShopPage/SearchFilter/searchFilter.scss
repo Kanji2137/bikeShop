@@ -6,6 +6,12 @@
     --border: rgba(0, 0, 0, 0.1);
 }
 
+.search-loading {
+    font-size: 5rem;
+    color: var(--text);
+    text-align: center;
+}
+
 .search-wrapper {
     margin: 48px 0;
     display: flex;

@@ -5,7 +5,7 @@ import Select from "./select/Select";
 
 function SearchFilter() {
     const [error, setError] = useState(null);
-    const [loaded, setLoaded] = useState(true);
+    const [loaded, setLoaded] = useState(false);
     const [items, setItems] = useState([]);
     const [query, setQuery] = useState("");
     const [filter, setFilter] = useState("");
@@ -58,7 +58,7 @@ function SearchFilter() {
     if (error) {
         return <>{error.message}</>;
     } else if (!loaded) {
-        return <>loading...</>;
+        return <h1 className="search-loading">loading...</h1>;
     } else {
         return (
             <div className="wrapper">
