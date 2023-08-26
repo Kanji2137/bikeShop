@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import data from "../../data/data.json";
 
-import bicycle from "../../images/bicycle.jpg";
+import bicycle4k from "../../images/bicycle.jpg";
+import bicycleMedium from "../../images/bicycle-medium.jpg";
+import bicycleSmall from "../../images/bicycle-small.jpg";
+import bicycleVerySmall from "../../images/bicycle-very-small.jpg";
 
 import ModalContent from "./OpeningHours/OpeningHours";
 
@@ -23,8 +26,24 @@ function LocationInfo() {
             {showModal && <ModalContent handleClose={handleClose} />}
             <div className="locationInfo__location">
                 <picture>
+                    <source
+                        media="(min-width: 2200px)"
+                        srcSet={bicycle4k}
+                    />
+                    <source
+                        media="(min-width: 1200px)"
+                        srcSet={bicycleMedium}
+                    />
+                    <source
+                        media="(min-width: 600px)"
+                        srcSet={bicycleSmall}
+                    />
+                    <source
+                        media="(min-width: 0)"
+                        srcSet={bicycleVerySmall}
+                    />
                     <img
-                        src={bicycle}
+                        srcSet={bicycleMedium}
                         alt="bicycle"
                         className="locationInfo__image"
                     />
@@ -44,7 +63,11 @@ function LocationInfo() {
                             <br />
                             <strong>info@email.pl</strong>
                         </h3>
-                        <a className="locationInfo-h" onClick={handleClick} href="/">
+                        <a
+                            className="locationInfo-h"
+                            onClick={handleClick}
+                            href="/"
+                        >
                             Check opening hours
                         </a>
                         <h3>

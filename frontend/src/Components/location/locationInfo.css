@@ -70,6 +70,7 @@
   -o-object-fit: cover;
      object-fit: cover;
   position: absolute;
+  backface-visibility: hidden;
 }
 .locationInfo__location--information {
   box-shadow: 0 0 24px -11px rgb(66, 68, 90);
