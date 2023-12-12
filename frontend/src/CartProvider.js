@@ -1,12 +1,12 @@
 import "./App.css";
-import { useState, useEffect } from "react";
-import { Outlet } from "react-router-dom";
+import {useState, useEffect} from "react";
+import {Outlet} from "react-router-dom";
 
 function CartProvider() {
     const [carts, setCart] = useState([]);
 
     useEffect(() => {
-        if(carts.length !== 0){
+        if (carts.length !== 0) {
             localStorage.setItem('carts', JSON.stringify(carts));
         }
     }, [carts]);
@@ -17,7 +17,7 @@ function CartProvider() {
             setCart(JSON.parse(savedCount));
         }
     }, []);
-    
+
 
     const deleteProduct = (item) => {
         setCart(carts.filter((product) => product.name !== item.name));
@@ -25,10 +25,10 @@ function CartProvider() {
 
     const addProduct = (item) => {
         let obj = carts.find(cart => cart.name === item.name);
-        if(obj === undefined) setCart([...carts, item]);
+        if (obj === undefined) setCart([...carts, item]);
     };
 
-    return <Outlet context={{ carts, addProduct, deleteProduct }} />;
+    return <Outlet context={{carts, addProduct, deleteProduct}}/>;
 }
 
 export default CartProvider;
